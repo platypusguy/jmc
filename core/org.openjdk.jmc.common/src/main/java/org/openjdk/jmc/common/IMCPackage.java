@@ -54,7 +54,7 @@ public interface IMCPackage {
 	IMCModule getModule();
 
 	/**
-	 * @return {@code true} if the package is exported from it's module, or if it's in a pre modules
+	 * @return {@code true} if the package is exported from its module, or if it's in a pre-modules
 	 *         environment, {@code false} otherwise
 	 */
 	// FIXME: Should null denote unknown export status?
